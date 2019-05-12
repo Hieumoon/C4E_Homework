@@ -1,7 +1,7 @@
 # age = 10
 # if age < 18:
 #     print('baby')
-
+# xin chao
 # age = 10
 # is_baby = age<10
 # print('is_baby')
