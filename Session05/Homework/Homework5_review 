@@ -1,0 +1,55 @@
+# 1. Why should we use function at all?
+
+- Creating a new function gives us an opportunity to name a group of statements that belong together.
+- Functions help us organize programs into chunks that match how we think about the problem.
+- Functions can simplify a program by hiding a complex computation behind a single command.
+- Creating a new function can make a program smaller by eliminating repetitive code.
+
+# 2. How to define/declare a function?
+The syntax for a function definition is:
+
+    def NAME (PARAMETERS):
+        STATEMENTS
+
+- A header line which begins with a keyword "def", is followed by the name of the function and some parameters enclosed in parentheses, and ends with a colon.
+- A body consisting of one or more Python statements, each indented the same amount from the header line. 
+
+Some notes on defining/declaring a function:
+- We can make up any names we want for the functions we create, except that we can't use a name that is a Python keyword.
+- The parameter list may be empty, or may contain any number of parameters separated from one another by commas. In either case, the parentheses are required.
+- The parameters specifies what information, if any, we have to provide in order to use the new function.   
+- There can be any number of statements inside the function, but they have to be indented from the keyword "def".
+- The statement return [expression] exits a function, optionally passing back an expression to the caller. 
+
+# 3. How to call/use a function?
+
+- To make the function run, we need a function call. 
+- Function calls contain the name of the function being executed followed by a list of values enclosed in parentheses, called arguments, which are assigned to the parameters in the function definition. 
+- The function definition has to be executed before the function is called.  
+
+# 4. What is return? why and how do we use it?
+
+- The return statement causes your function to exit and provide a value to its caller.
+- The primary purpose of functions is to take up inputs and return values/expressions. 
+- The return statement is used when a function is ready to return a value to its caller.
+
+# 5. Do we have to use return in every function?
+
+We don't have to use "return" in every function; it's totally optional. 
+
+# 6. What are function arguments/parameters? why and how we use it?
+
+- Function parameter: A name used inside a function to refer to the value which was passed to it as an argument.
+- Function argument: A value provided to a function when the function is called. This value is assigned to the corresponding parameter in the function.  
+
+There are four types of arguments that Python can take:
+- Default arguments:
+- Required arguments
+- Keyword arguments:
+- Variable Number of arguments: 
+
+# 7. How to use function from a different file other than our currently working file?
+
+- Python allows importing the code in a .py file from other scripts in the same directory. 
+- Importing statement: A statement which permits functions and variables defined in another Python module to be brought into the environment of another script. 
+- Example: To use the features of the turtle, we need to first import the turtle module.    
